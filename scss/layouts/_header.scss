@@ -1,0 +1,130 @@
+header {
+
+    background-image: url(../photos-ok-small/bg-header-small.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    min-width: 100%;
+    padding: 0;
+
+
+    @media (min-width: $bp-medium) {
+
+        background-image: url(../photos-ok-medium/bg-header-medium.svg);
+
+    }
+
+    @media (min-width: $bp-large) {
+
+        background-image: url(../photos-ok-large/header/bg-header.svg);
+
+    }
+
+    .header-content {
+
+        padding: $spacer;
+
+        @media (min-width: $bp-medium) {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+
+        .header-logo {
+
+            padding: $spacer;
+        }
+
+
+
+
+        p {
+            font-size: 0;
+
+            @media (min-width: $bp-large) {
+
+                font-size: 1.5em;
+                font-weight: lighter;
+                color: $dark-gray;
+                font-weight: 700;
+            }
+
+        }
+
+        .top-header-nav {
+
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            margin: $spacer;
+            padding: $spacer;
+
+            
+
+            .espace-perso {
+
+                font-size: 0;
+                display: block;
+
+            }
+
+            img{
+
+                margin: 10px
+            }
+
+            button{
+
+                background-color: transparent;
+                border: none
+            }
+
+
+
+        }
+    }
+
+
+}
+
+.search-bar {
+
+    @media (min-width: $bp-medium) {
+        display: flex;
+        border: solid $green 1px;
+        border-radius:25px;
+        background-color: transparent;
+        padding: 0 5px;
+
+        button{
+
+            padding: 0;
+        }
+    }
+
+    input {
+        display: none;
+        font-size: 0.825rem;
+        font-style: italic;
+        background-color: transparent;
+        border: none;
+       
+
+
+        @media (min-width: $bp-medium) {
+
+            display: block;
+
+
+        }
+    }
+
+    .fa-search {
+
+        color: $green;
+        font-size: 1.8rem;
+        padding: 0;
+    }
+}

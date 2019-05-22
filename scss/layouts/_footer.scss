@@ -1,0 +1,103 @@
+.footer {
+
+    background-color: #000;
+    color: #fff;
+
+    a {
+        color: #fff
+    }
+}
+
+.footer-content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    @media (min-width: $bp-medium) {
+
+        display: flex;
+
+        align-items: center;
+
+    }
+
+
+    .coordonnees-footer {
+
+        @media (min-width: $bp-medium) {
+
+            margin: auto 30px;
+        }
+    }
+
+    .footer-top {
+
+        @media (min-width: $bp-medium) {
+
+            display: flex;
+            justify-content: space-between;
+        }
+
+        ul {
+
+            @media (min-width: $bp-medium) {
+
+                margin-bottom: auto;
+            }
+
+
+        }
+    }
+
+
+    .footer-nav {
+
+        @media (min-width: $bp-medium) {
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+        }
+
+    }
+
+    ul {
+        padding-left: 0;
+        font-weight: 700;
+        margin: 30px;
+
+        li {
+            font-weight: 500;
+            padding: 5px 10px;
+        }
+    }
+
+    .social-nav {
+
+        display: flex;
+        justify-content: space-evenly;
+
+       
+
+        img {
+            max-height: 30px;
+
+
+        }
+
+        
+    }
+
+
+
+
+    .mentions {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+}

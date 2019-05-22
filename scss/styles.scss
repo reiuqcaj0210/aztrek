@@ -1,0 +1,22 @@
+@import 'partials/normalize';
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/bases';
+
+
+
+@import 'navigation/main-nav';
+@import 'navigation/footer-nav';
+
+
+@import 'layouts/header';
+@import 'layouts/main';
+@import 'layouts/gallery';
+@import 'layouts/agence';
+@import 'layouts/equipe';
+@import 'layouts/newsletter';
+@import 'layouts/footer';
+@import 'layouts/liste_sejours';
+@import 'layouts/sejour'
+
+

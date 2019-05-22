@@ -1,0 +1,13 @@
+.stellarnav.dark, .stellarnav.dark ul ul {
+    background: $green;
+    transition: 0.3s
+}
+
+.stellarnav.dark a:hover, .stellarnav.dark li a:hover {
+    background: #f1ffe9;
+    color: $green;
+}
+
+.stellarnav.mobile.dark ul {
+    background: $green;
+}

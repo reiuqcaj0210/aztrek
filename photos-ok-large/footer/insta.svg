@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_28" data-name="Rectangle 28" width="65" height="65" transform="translate(1260 6476)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="insta" transform="translate(-1260 -6476)">
+    <g id="Groupe_de_masques_4" data-name="Groupe de masques 4" clip-path="url(#clip-path)">
+      <g id="instagram" transform="translate(1260 6476)">
+        <path id="Tracé_22" data-name="Tracé 22" d="M55.479,0H9.521A9.533,9.533,0,0,0,0,9.521V55.479A9.533,9.533,0,0,0,9.521,65H55.479A9.533,9.533,0,0,0,65,55.479V9.521A9.533,9.533,0,0,0,55.479,0ZM32.627,49.512A17.139,17.139,0,1,1,49.766,32.373,17.158,17.158,0,0,1,32.627,49.512ZM51.67,19.043a5.713,5.713,0,1,1,5.713-5.713A5.719,5.719,0,0,1,51.67,19.043Zm0,0" fill="#fff"/>
+        <path id="Tracé_23" data-name="Tracé 23" d="M51.67,11.426a1.9,1.9,0,1,0,1.9,1.9A1.905,1.905,0,0,0,51.67,11.426Zm0,0" fill="#fff"/>
+        <path id="Tracé_24" data-name="Tracé 24" d="M32.627,19.043a13.33,13.33,0,1,0,13.33,13.33A13.346,13.346,0,0,0,32.627,19.043Zm0,0" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+.gallery-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .item-gallery {
+        margin: $spacer;
+        position: relative;
+         
+    }
+
+
+
+
+    .infos-gallery {
+        color: white;
+        font-weight: 500;
+        width: 100%;
+        padding: 10px;
+        position: absolute;
+        bottom: 0;
+        transition: 0.3s;
+    }
+
+    .infos-gallery:hover{
+
+        background-color: rgba(255, 255, 255, 0.911);
+        color: $green;
+    }
+
+
+}
+
+
+
+.btn-gallery {
+
+    display: flex;
+    justify-content: center;
+
+}

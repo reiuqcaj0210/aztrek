@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_29" data-name="Rectangle 29" width="65" height="65" transform="translate(1355 6476)"/>
+    </clipPath>
+  </defs>
+  <g id="youtube" transform="translate(-1355 -6476)">
+    <g id="Groupe_de_masques_3" data-name="Groupe de masques 3" clip-path="url(#clip-path)">
+      <g id="youtube-2" data-name="youtube" transform="translate(1355 6476)">
+        <g id="Groupe_23" data-name="Groupe 23">
+          <path id="Tracé_21" data-name="Tracé 21" d="M62.237,14.462c-1.763-3.136-3.677-3.713-7.573-3.932-3.892-.264-13.678-.374-22.157-.374-8.495,0-18.285.11-22.173.37-3.888.223-5.805.8-7.585,3.937C.934,17.595,0,22.99,0,32.488v.033c0,9.458.934,14.893,2.75,17.993,1.779,3.136,3.693,3.7,7.581,3.969,3.892.227,13.682.362,22.177.362,8.478,0,18.265-.134,22.161-.358,3.9-.264,5.809-.833,7.573-3.969C64.074,47.417,65,41.982,65,32.524v-.032C65,22.99,64.074,17.595,62.237,14.462ZM24.375,44.688V20.313L44.688,32.5Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

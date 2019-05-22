@@ -1,0 +1,46 @@
+.agence {
+
+    background-image: url(../photos-ok-small/bg-agence.svg);
+    background-size: cover;
+    resize: no-repeat;
+
+    @media (min-width: $bp-medium) {
+
+        background-image: url(../photos-ok-medium/bg-agence-medium.svg);
+
+    }
+
+    @media (min-width: $bp-large) {
+
+        background: url(../photos-ok-large/agence/bg-agence.svg);
+
+
+    }
+
+
+    .agence-content {
+
+        max-width: 70%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        margin: 30px auto;
+        padding: 20px 30px;
+    }
+
+    .section-title {
+
+        .agence-white {
+            color: #fff;
+        }
+    }
+
+.btn-agence{
+    display: flex;
+    justify-content: center;
+}
+
+   
+}

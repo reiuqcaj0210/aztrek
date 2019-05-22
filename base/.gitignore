@@ -1,0 +1,7 @@
+.DS_Store
+_DS_Store
+node_modules/
+uploads/
+.idea/
+*.bak
+config/parameters.php

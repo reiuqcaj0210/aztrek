@@ -1,0 +1,142 @@
+.page-sejour {
+
+    header {
+        background: url(../photos-ok-large/bg_sejour_mexique.png);
+        background-size: cover;
+    }
+}
+
+
+
+.itineraire-content {
+
+    h1 {
+        font-weight: bolder;
+        color: #542d25;
+
+    }
+}
+
+
+
+
+.descriptif {
+
+    background-color: #e5d0c3;
+
+
+    .descriptif-items {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: top;
+        font-weight: bolder;
+        color: #542d25;
+
+        .niveau {
+
+           display: flex;
+        
+            img{
+                
+            
+
+        }
+    }
+    }
+
+
+    h2 {
+
+        font-size: 3rem;
+        color: #542d25;
+        margin-top: 20px;
+    }
+}
+
+
+.itineraire {
+
+    display: flex;
+
+
+    .aside-presentation {
+
+        flex-basis: 40%;
+
+        .photos {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+
+
+            img {
+
+                margin: 5px;
+                display: block;
+
+            }
+        }
+
+    }
+
+    .details-sejour {
+
+        flex-basis: 60%;
+        margin: 20px;
+    }
+
+}
+
+article.aside {
+    background-color: #e5d0c3;
+    border-radius: 5px;
+    
+
+    h3 {
+        padding: 1em;
+        margin: 0;
+        font-size: 1.5rem;
+        color: #542d25;
+    }
+
+   
+
+}
+
+.details-sejour{
+
+    p.etape{
+    font-size: 0.875rem;
+}
+}
+
+.infos-supp {
+
+    background-color: #e5d0c3;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 0;
+   
+
+    li {
+        font-style: italic;
+        margin: 1em;
+    }
+}
+
+.dates-depart {
+
+    table {
+        width: 100%;
+    }
+
+
+    tr {
+
+        display: flex;
+        justify-content: space-between;
+
+    }
+}

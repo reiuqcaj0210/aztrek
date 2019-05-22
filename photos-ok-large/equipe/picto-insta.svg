@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.133" height="40.133" viewBox="0 0 40.133 40.133">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_20" data-name="Rectangle 20" width="40.133" height="40.133" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Picto_Insta_Stéphane" data-name="Picto Insta Stéphane" transform="translate(0 0)">
+    <g id="Groupe_de_masques_7" data-name="Groupe de masques 7" clip-path="url(#clip-path)">
+      <g id="instagram">
+        <path id="Tracé_27" data-name="Tracé 27" d="M34.254,0H5.879A5.886,5.886,0,0,0,0,5.879V34.254a5.886,5.886,0,0,0,5.879,5.879H34.254a5.886,5.886,0,0,0,5.879-5.879V5.879A5.886,5.886,0,0,0,34.254,0ZM20.145,30.57A10.582,10.582,0,1,1,30.727,19.988,10.594,10.594,0,0,1,20.145,30.57ZM31.9,11.758A3.527,3.527,0,1,1,35.43,8.23,3.531,3.531,0,0,1,31.9,11.758Zm0,0" fill="#fff"/>
+        <path id="Tracé_28" data-name="Tracé 28" d="M31.9,7.055A1.176,1.176,0,1,0,33.078,8.23,1.176,1.176,0,0,0,31.9,7.055Zm0,0"/>
+        <path id="Tracé_29" data-name="Tracé 29" d="M20.145,11.758a8.23,8.23,0,1,0,8.23,8.23A8.24,8.24,0,0,0,20.145,11.758Zm0,0"/>
+      </g>
+    </g>
+  </g>
+</svg>

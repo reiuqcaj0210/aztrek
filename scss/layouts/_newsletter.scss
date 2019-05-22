@@ -1,0 +1,33 @@
+.newsletter{
+    background-color:$green;
+    color: #ffffff;
+    text-align: center;
+
+    .email-nl{
+
+        display: inline-block;
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 3px
+    }
+
+    input{
+
+        
+        border: none;
+        margin: 0;
+        padding: 3px;
+        font-size: 0.8rem;
+        color: $orange;
+    }
+
+    button{
+        color: $green;
+        font-weight: 700;
+        background-color: #fff;
+        
+        border: none;
+        margin: 0;
+        padding: 3px 7px;
+    }
+}

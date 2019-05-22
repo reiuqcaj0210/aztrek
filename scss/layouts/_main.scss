@@ -1,0 +1,205 @@
+//caroussel
+
+.destination-infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 0 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+
+    a {
+        color: #fff;
+        display: block;
+
+    }
+
+    .voir {
+        display: block;
+        background-color: $orange;
+        padding: 5px;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+
+}
+
+.destination-buttons {
+
+    display: flex;
+    justify-content: center;
+}
+
+.owl-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+
+    color: $green;
+  
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    font-size: 3em;
+
+}
+
+
+
+
+
+//préférences
+.travel-preferences {
+
+    background-color: #fff;
+    padding: $spacer;
+    margin: 30px auto;
+
+
+    .travel-preferences-content {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        @media (min-width: $bp-large) {
+
+
+            flex-direction: row;
+
+        }
+
+        .preferences-btn {
+
+            display: flex;
+            flex-direction: column;
+
+            @media (min-width: $bp-medium) {
+
+                display: flex;
+                flex-direction: row;
+
+            }
+
+            @media (min-width: $bp-large) {
+
+
+                flex-direction: column;
+                flex-basis: 25%;
+
+            }
+
+
+
+            .btn {
+                max-width: 100%;
+                text-align: center;
+
+                @media (min-width: $bp-medium) {
+
+                    flex-basis: 33%;
+
+                }
+
+                @media (min-width: $bp-large) {
+
+                    flex-basis: 25%;
+
+                }
+            }
+
+        }
+
+        .preferences-aside {
+
+            @media (min-width: $bp-medium) {
+
+                display: flex;
+                flex-basis: 40%;
+                justify-content: space-between;
+                flex-direction: row;
+
+            }
+
+            @media (min-width: $bp-large) {
+
+                display: flex;
+                flex-basis: 75%;
+                justify-content: space-between;
+                flex-direction: row;
+
+            }
+        }
+
+
+
+        .preferences-infos {
+
+            margin-left: 30px;
+
+
+
+        }
+    }
+}
+
+// récits
+
+
+article.recit-article {
+
+    background: #fff;
+    padding: $spacer;
+    margin: $spacer;
+
+    @media (min-width: $bp-medium) {
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+    }
+
+    .aside-recit {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        @media (min-width: $bp-medium) {
+
+            flex-basis: 50%;
+            margin-left: $spacer;
+
+        }
+
+    }
+
+    .auteur{
+        font-style: italic;
+    }
+
+    img {
+        @media (min-width: $bp-medium) {
+
+            flex-basis: 50%;
+
+
+        }
+
+
+    }
+
+    
+}
+
+.btn-recits{
+    display: flex;
+    justify-content: center;
+   
+}
