@@ -146,6 +146,8 @@ function updatePays(int $id, string $titre, string $image) {
 
 
 
+
+
 function getUtilisateurByEmailMotDePasse(string $email, string $password) {
     global $connection;
 
