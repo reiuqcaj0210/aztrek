@@ -7,6 +7,7 @@ getHeader( "liste-sejours");
 $id  = $_GET["id"]; // Récupérere le paramètre id dans l'url
 
 $sejours = getAllSejoursByPays($id);
+$pays = getOneRow ("pays", $id);
 
 ?>
 
@@ -30,7 +31,7 @@ $sejours = getAllSejoursByPays($id);
                 <h2> <?= $sejour["titre"]; ?> </h2>
 
                 <a href="liste_sejours.php?id=<?= $sejour["sejour_id"]; ?>">
-                    <?= $sejour["pays_sej"]; ?>
+                    <?= $pays["titre"]; ?>
                 </a>
 
                 <div class="content-infos-item">

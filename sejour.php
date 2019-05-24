@@ -7,7 +7,7 @@ $sejours = getOneRow("sejour", $id);
 $itineraires= getAllRows("itineraire");
 $departs= getAllDepartsBySejour ("depart", $id);
 
-getHeader("sejour", $sejours["photo_bg"]);
+getHeader("sejour");
 ?>
 
 <?php getNav(); ?>

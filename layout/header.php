@@ -20,7 +20,7 @@
 
 <body>
 <!-- $$$$$$$$$$$$$$$$$$$$$$-----HEADER-----$$$$$$$$$$$$$$$$$$$$$ -->
-<header style="background-image: url('./photos-ok-large/<?= $sejours["photo_bg"] ?>');">
+<header style="background-image: url('./photos-ok-large/bg_acc_yucatan.jpg');">
     <div class="container">
 
         <div class="header-content">
